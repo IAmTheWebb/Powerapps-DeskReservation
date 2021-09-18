@@ -167,7 +167,8 @@ NewEditDesk As screen:
                         Title: tbNameDesk.Text,
                         Floor: tbFloorDesk.Text,
                         'Map Link': tbMapDesk.Text,
-                        Description: tbDescrDesk.Text
+                        Description: tbDescrDesk.Text,
+                        Active: If(toggleActive.Value, 1, 0)
                     }
                 ),
                 Patch(
@@ -177,7 +178,8 @@ NewEditDesk As screen:
                         Title: tbNameDesk.Text,
                         Floor: tbFloorDesk.Text,
                         'Map Link': tbMapDesk.Text,
-                        Description: tbDescrDesk.Text
+                        Description: tbDescrDesk.Text,
+                        Active: If(toggleActive.Value, 1, 0)
                     }
                 )
             );
@@ -280,7 +282,7 @@ NewEditDesk As screen:
             ZIndex: =18
 
         Image5_1 As image:
-            Height: =500
+            Height: =800
             Image: =varManageSelectedDesk.'Map Link'
             ImagePosition: =ImagePosition.Fill
             Visible: =showMap

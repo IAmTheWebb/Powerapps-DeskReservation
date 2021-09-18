@@ -209,7 +209,7 @@ ManageDesks As screen:
 
     "galInactive As gallery.'BrowseLayout_Vertical_OneTextVariant_ver4.0'":
         AccessibleLabel: ="Inactive Desks"
-        Height: =719
+        Height: =740
         Items: |-
             =SortByColumns(
                 Filter(
@@ -222,11 +222,11 @@ ManageDesks As screen:
         Layout: =Layout.Vertical
         TabIndex: =4
         TemplatePadding: =0
-        TemplateSize: =172
+        TemplateSize: =157
         Visible: =prevSelected
         Width: =557
-        X: =41
-        Y: =212
+        X: =42
+        Y: =211
         ZIndex: =13
 
         Separator2_4 As rectangle:
@@ -243,13 +243,14 @@ ManageDesks As screen:
             OnSelect: =Select(Parent)
             PaddingBottom: =0
             PaddingLeft: =20
-            PaddingRight: =0
+            PaddingRight: =10
             PaddingTop: =0
             Size: =24
             Text: =ThisItem.Title
             VerticalAlign: =VerticalAlign.Top
             Width: =300
-            Y: =10
+            X: =2
+            Y: =6
             ZIndex: =5
 
         Title2_25 As label:
@@ -258,15 +259,15 @@ ManageDesks As screen:
             OnSelect: =Select(Parent)
             PaddingBottom: =0
             PaddingLeft: =20
-            PaddingRight: =0
+            PaddingRight: =10
             PaddingTop: =0
             Size: =24
             Text: |-
                 ="Floor: " & ThisItem.Floor
             VerticalAlign: =VerticalAlign.Top
             Width: =250
-            X: =285
-            Y: =10
+            X: =307
+            Y: =6
             ZIndex: =6
 
         Button3_6 As button:
@@ -283,7 +284,7 @@ ManageDesks As screen:
             Size: =14
             Text: ="✔️  ACTIVATE"
             X: =375
-            Y: =99
+            Y: =90
             ZIndex: =9
 
         Button3_7 As button:
@@ -297,9 +298,9 @@ ManageDesks As screen:
             RadiusTopLeft: =20
             RadiusTopRight: =20
             Size: =14
-            Text: ="🖉  EDIT"
+            Text: ="✏️  EDIT"
             X: =198
-            Y: =99
+            Y: =90
             ZIndex: =10
 
         Button3_8 As button:
@@ -316,7 +317,7 @@ ManageDesks As screen:
             Size: =14
             Text: =" 🗑️  DELETE"
             X: =22
-            Y: =99
+            Y: =90
             ZIndex: =11
 
     Tabs_7 As Tabs:

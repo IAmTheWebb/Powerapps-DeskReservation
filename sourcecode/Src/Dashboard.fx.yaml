@@ -65,9 +65,9 @@ Dashboard As screen:
         ZIndex: =4
 
     bgRounded_3 As htmlViewer:
-        Height: =660
+        Height: =670
         HtmlText: |-
-            ="<div style='border:1px gray;border-radius:10%;height:600px;width:100%;background-color:#FCFCFC'></div>"
+            ="<div style='border:1px gray;border-radius:10%;height:658px;width:100%;background-color:#FCFCFC'></div>"
         Width: =610
         X: =15
         Y: =328
